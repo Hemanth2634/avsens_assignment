@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['car', 'pedestrian', 'with scooter', 'without scooter']
+
+roboflow:
+  workspace: yolov8car
+  project: car-and-pedestrian-qbzyx
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolov8car/car-and-pedestrian-qbzyx/dataset/1
